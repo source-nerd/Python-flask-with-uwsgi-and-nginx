@@ -1,3 +1,6 @@
+<p align="center">
+  <a href="https://github.com/source-nerd/Python-flask-with-uwsgi-and-nginx"><img src="https://camo.githubusercontent.com/9a140a4c68e7c178bc660bee7675f4f25ff7ade3/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f6c2f7675652e737667" alt="License"></a>
+</p>
 # PYTHON FLASK WITH NGINX & UWSGI
 
 ## CONTENTS
