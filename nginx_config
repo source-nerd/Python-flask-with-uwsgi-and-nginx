@@ -1,0 +1,11 @@
+server {
+    listen 80;
+    # change this to your server name or IP
+    server_name 0.0.0.0;
+
+    location / {
+        include         uwsgi_params;
+        # change this to the location of the uWSGI socket file (set in uwsgi.ini)
+        uwsgi_pass      unix:PROJECT_FOLDER_HERE/production_flask.sock;
+    }
+}

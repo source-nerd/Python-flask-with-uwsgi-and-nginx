@@ -1,0 +1,4 @@
+Flask==1.0.2
+uwsgi
+uwsgitop==0.10
+virtualenv==16.0.0

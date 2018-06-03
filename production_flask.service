@@ -1,0 +1,12 @@
+[Unit]
+Description=uWSGI instance to serve production_ml service
+
+[Service]
+User=USER_NAME_HERE
+WorkingDirectory=PROJECT_FOLDER_HERE
+Environment="PATH=PROJECT_FOLDER_HERE/venv/bin"
+ExecStart=PROJECT_FOLDER_HERE/venv/bin/uwsgi --ini uwsgi.ini_PATH_HERE/uwsgi.ini
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
